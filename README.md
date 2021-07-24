@@ -5,7 +5,7 @@
 ### Data Structures:
 
 #### Node format:
-Each networks nodes are stored in a node array with each node represented in the following manner
+Each networks nodes are stored in a node array where each node is represented in the following manner:
 
 | Name          | Data type     |
 | ------------- |:-------------:|
@@ -19,16 +19,22 @@ Each networks nodes are stored in a node array with each node represented in the
 
 
 #### Connections format:
-{
-    innovationID: int,
-    inNodeID: int,
-    outNodeID: int,
-    weight: float,
-    enabled: bool,
-    isRecurrent: bool
-}
+
+Each networks connections are stored in a connection array where each connection represented in the following manner
+
+| Name          | Data type     |
+| ------------- |:-------------:|
+| innovationID  | int           |
+| inNodeID      | int           |
+| outNodeID     | int           |
+| weight        | float         |
+| enabled       | bool          |
+| isRecurrent   | bool          |
 
 #### Activation functions:
+
+
+
 {
     LIN: Linear activation
     SIN: Sinusoidal activation
